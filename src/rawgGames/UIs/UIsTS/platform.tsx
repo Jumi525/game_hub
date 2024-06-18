@@ -1,7 +1,4 @@
 import { Select } from "@chakra-ui/react";
-import DataServices from "../../../httpServices";
-import useEntity from "../BKUI/useEntities";
-import { Platforms } from "../BKUI/entitys";
 import usePlatform from "../BKUI/usePlatforms";
 
 interface Props {

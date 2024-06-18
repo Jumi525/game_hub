@@ -1,6 +1,5 @@
 import {
   Box,
-  Text,
   Image,
   HStack,
   Spinner,
@@ -8,8 +7,6 @@ import {
   Heading,
   useColorMode,
 } from "@chakra-ui/react";
-import { Genre } from "./BKUI/entitys";
-import useEntity from "./BKUI/useEntities";
 import OptimisedImage from "./BKUI/optimedImage";
 import { useState } from "react";
 import useGenre from "./BKUI/useGenres";

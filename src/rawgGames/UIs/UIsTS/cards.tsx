@@ -11,7 +11,6 @@ import {
 } from "@chakra-ui/react";
 import useCards from "../BKUI/useCards";
 import { Games } from "../BKUI/entitys";
-import { useState } from "react";
 import CardSkeleton from "./cardSkeleton";
 
 interface Props {

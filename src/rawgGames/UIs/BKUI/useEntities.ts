@@ -3,7 +3,6 @@ import { CanceledError } from "axios";
 import { FetchRawg } from "./entitys";
 import DataServices from "../../../httpServices";
 import { GameQuery } from "../../../App";
-import { Search } from "grommet-icons";
 
 const useEntity = <T>(endpoint: string, gamesQuery?: GameQuery) => {
   const dataServices = new DataServices<T>(endpoint);

@@ -51,7 +51,8 @@ const Headers = ({ searchs }: Props) => {
           height="100%"
           ref={refs}
           onKeyDown={(event) => {
-            event.key === "Enter" && refs.current?.value !== ""
+            (event.key === "Enter" || event.key === "Tab") &&
+            refs.current?.value !== ""
               ? onSubmits(event)
               : null;
           }}

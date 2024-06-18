@@ -42,6 +42,7 @@ function App() {
       <GridItem pl="5px" area="main">
         <Main
           onSorts={(sorts) => setGameQuery({ ...gameQuery, sorts })}
+          onNav={(genre, name) => setGameQuery({ ...gameQuery, genre, name })}
           onPlatforms={(platform) => setGameQuery({ ...gameQuery, platform })}
           gamesQuery={gameQuery}
         ></Main>
